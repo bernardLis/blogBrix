@@ -1,6 +1,51 @@
 /* -- General Layout -- */
 
+/* mixins & import of colors from base.scss did not work (in phpstorm) so i imported all the mixins here... should have resolved it differently, shame on me. */
+$main-color: #000000;
+$background-color: #FDFDFD;
+$text-color: #000000;
+
+@mixin nav-position($position) {
+  width: 14rem;
+  position: fixed;
+  background-color: $main-color;
+  top: 0;
+  bottom: 0;
+  #{$position}: -14rem;
+  color: $background-color;
+  opacity: 0.95;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 1;
+  padding: 72px 0;
+  text-align: center;
+}
+
+@mixin open($x) {
+  -webkit-transform: translateX($x);
+  -moz-transform: translateX($x);
+  -ms-transform: translateX($x);
+  transform: translateX($x);
+  width: 100%;
+  @media (min-width: 940px) {
+    width: 30%;
+  }
+}
+@mixin icon-position($position) {
+  display: block;
+  position: fixed;
+  top: 35px;
+  #{$position}: 25px;
+  z-index: 10;
+  height: 24px;
+}
+
+/*mixins end.*/
+
 /* Navigation */
+
 
 #nav, #nav-left { 
   a {
@@ -248,8 +293,24 @@ code {
 /* Footer */
 
 footer {
-  background-color: $main-color;
+  background-color:#f7c0c2;
   color: $background-color;
   text-align: center;
   padding: 0.6667em 0;
+  ul{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    li {
+      display: inline-block;
+      margin: 0 0.6667em 0 0.6667em;
+      padding: 0 0 0 0;
+      img {
+        width: 40px;
+        height: auto;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+      }
+    }
+  }
+
 }

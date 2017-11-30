@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Emerald | A simple Jekyll blog</title>
+ <title>Brix Blog - private pension plan for You.</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-11-23T19:25:25+01:00</updated>
+ <updated>2017-11-27T16:11:14+01:00</updated>
  <author>
-   <name>Jacopo Rabolini</name>
+   <name>Brix Finance</name>
    <uri>http://www.jacoporabolini.com</uri>
-   <email>hello@jacoporabolini.com</email>
+   <email>bernard@brixpension.com</email>
  </author>
 
  

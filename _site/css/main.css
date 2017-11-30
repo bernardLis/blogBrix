@@ -133,6 +133,8 @@ blockquote {
       padding: 1.33334em 0;
       /* 24px/18px */ } }
 /* -- General Layout -- */
+/* mixins & import of colors from base.scss did not work (in phpstorm) so i imported all the mixins here... should have resolved it differently, shame on me. */
+/*mixins end.*/
 /* Navigation */
 #nav a, #nav-left a {
   display: block;
@@ -389,10 +391,22 @@ code {
 
 /* Footer */
 footer {
-  background-color: #000000;
+  background-color: #f7c0c2;
   color: #FDFDFD;
   text-align: center;
   padding: 0.6667em 0; }
+  footer ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0; }
+    footer ul li {
+      display: inline-block;
+      margin: 0 0.6667em 0 0.6667em;
+      padding: 0 0 0 0; }
+      footer ul li img {
+        width: 40px;
+        height: auto;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0; }
 
 /*
  * A Github stylesheet to highlight code snippet
