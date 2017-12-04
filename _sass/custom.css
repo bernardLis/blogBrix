@@ -23,5 +23,8 @@
 
 #post-page h2 {
   color: #e9486c; }
+@media (max-width: 560px) {
+  #post-page iframe {
+    width: auto; } }
 
 /*# sourceMappingURL=custom.css.map */
