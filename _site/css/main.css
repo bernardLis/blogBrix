@@ -694,6 +694,9 @@ footer {
   #posts .post h2 a:hover {
     color: black;
     transition: all 1s ease; }
+  #posts .post h2 a:visited {
+    color: #B4436C;
+    transition: all 1s ease; }
 
 #post-page h2 {
   color: #e9486c; }
