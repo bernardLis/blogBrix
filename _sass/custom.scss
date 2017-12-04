@@ -38,10 +38,10 @@
   h2{
     color: #e9486c;
   }
-  iframe{
-    @media(max-width: 560px){
-      width: auto;
-    }
+}
+iframe {
+  @media(max-width: 560px) {
+    width: auto;
   }
 }
 // -- Put custom style under this point -- //

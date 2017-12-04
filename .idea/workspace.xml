@@ -4,11 +4,9 @@
     <list default="true" id="165bff98-c9ee-46ba-973b-4d64d8bdc9d7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/be1e3527326a4fde413d1ed92277d146de1682e3/custom.scssc" afterPath="$PROJECT_DIR$/.sass-cache/be1e3527326a4fde413d1ed92277d146de1682e3/custom.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-12-03-6-Gründe-Lebensversicherung.md" afterPath="$PROJECT_DIR$/_posts/2017-12-03-6-Gründe-Lebensversicherung.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/custom.css" afterPath="$PROJECT_DIR$/_sass/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/custom.css.map" afterPath="$PROJECT_DIR$/_sass/custom.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/custom.scss" afterPath="$PROJECT_DIR$/_sass/custom.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/6-Gründe-Lebensversicherung.html" afterPath="$PROJECT_DIR$/_site/6-Gründe-Lebensversicherung.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/main.css" afterPath="$PROJECT_DIR$/_site/css/main.css" />
     </list>
@@ -20,7 +18,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="layout.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/layout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="257" column="10" lean-forward="false" selection-start-line="257" selection-start-column="10" selection-end-line="257" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_sass/custom.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,8 +78,8 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_includes/link.html" />
-        <option value="$PROJECT_DIR$/_sass/custom.scss" />
         <option value="$PROJECT_DIR$/_posts/2017-12-03-6-Gründe-Lebensversicherung.md" />
+        <option value="$PROJECT_DIR$/_sass/custom.scss" />
       </list>
     </option>
   </component>
@@ -102,6 +121,11 @@
             <path>
               <item name="brixBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="brixBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="brixBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brixBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_sass" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="brixBlog" type="b2602c69:ProjectViewProjectNode" />
@@ -168,17 +192,18 @@
       <workItem from="1511780164229" duration="6599000" />
       <workItem from="1511859629467" duration="630000" />
       <workItem from="1511956259786" duration="128000" />
-      <workItem from="1512380274662" duration="11123000" />
+      <workItem from="1512380274662" duration="11320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25802000" />
+    <option name="totallyTimeSpent" value="25999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1669" y="208" width="1400" height="787" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -552,14 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="257" column="10" lean-forward="false" selection-start-line="257" selection-start-column="10" selection-end-line="257" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header-custom.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -584,10 +601,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="257" column="10" lean-forward="false" selection-start-line="257" selection-start-column="10" selection-end-line="257" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding />
         </state>
       </provider>
