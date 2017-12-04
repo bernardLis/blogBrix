@@ -1,6 +1,7 @@
 /* -- General Layout -- */
 
 /* mixins & import of colors from base.scss did not work (in phpstorm) so i imported all the mixins here... should have resolved it differently, shame on me. */
+
 $main-color: #000000;
 $background-color: #FDFDFD;
 $text-color: #000000;
@@ -293,11 +294,11 @@ code {
 /* Footer */
 
 footer {
-  background-color:#f7c0c2;
+  background-color: #f7c0c2;
   color: $background-color;
   text-align: center;
   padding: 0.6667em 0;
-  ul{
+  ul {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     li {
@@ -309,8 +310,17 @@ footer {
         height: auto;
         margin: 0 0 0 0;
         padding: 0 0 0 0;
+        opacity: 0.75;
+        transition:all 1s ease;
+        &:hover{
+          transform: scale(1.1);
+          transition:all 1s ease;
+          opacity: 1;
+        }
       }
     }
   }
-
+  P{
+    margin: 0 0 0 0;
+  }
 }

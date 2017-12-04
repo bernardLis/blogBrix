@@ -42,6 +42,6 @@ a {
 	font-weight: 700;
 	&:hover,
 	&:focus {
-		color: lighten($main-color, 30%);
+		color: lighten($main-color, 70%);
 	}
 }

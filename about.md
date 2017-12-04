@@ -1,21 +1,17 @@
 ---
 layout: page
-title: About Emerald
+title: About Brix
 ---
 ## About
-Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
+it woule be cool if we had a video explaining what brix is, for example the one that we would use for waiting list campagin
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IdMxlYzQazE" frameborder="0" allowfullscreen></iframe>
 
-For further details on Emerald, please visit the [repository on Github](https://github.com/KingFelix/emerald/).
+Also maybe few points why brix is way cooler than the competition:
 
-![Emerald](img/Emerald01.png "Emerald")
+* flexibility, you have access to your money whenever you need it
+* easy to use, get an app, connetct your bank account and start saving
+* great investment, you are currently using money by keeping it on the bank account, invest it with brix to make money.
 
-### Setup
-Emerald may be installed by simply downloading the .zip folder from the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
+and a great sentence that summerizes our value proposition of being the best private pension plan there is on the market
 
-After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find it there.
 
-Additionally it is possible to fork the repository and use Github Pages as hosting. By following this way it will be enough to change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or simply with a "/" (slash) if you want install Emerald in the root. 
-
-Last but not least: the [Jekyll documentation](http://jekyllrb.com) is the best starting point!
-
-Enjoy!
