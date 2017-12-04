@@ -1,5 +1,6 @@
 ---
 title: 6 Gründe Lebensversicherung
+date: 2017-12-03 00:00:00 Z
 ---
 
 Was auch Sinn macht, ist transparent die Altersversorgung von der Absicherung gegen Lebensrisiken zu trennen..  Außerdem kann sich jeder relativ einfach ausrechnen, wie viel er sparen muss, um seinen Lebensstandard auch weiterhin halten zu können.

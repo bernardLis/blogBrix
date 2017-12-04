@@ -1,7 +1,8 @@
 ---
-layout: page
 title: About Brix
+layout: page
 ---
+
 ## About
 it woule be cool if we had a video explaining what brix is, for example the one that we would use for waiting list campagin
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IdMxlYzQazE" frameborder="0" allowfullscreen></iframe>
